@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="styles/style.css"/>
+		<title>ma page web</title>
+</head>
+<body>
+    <header>
+    		<figure>
+    		   <center>
+    		     		<img src="photo.jpg" id="photo"</img>
+    			       	<figcaption><h2>Wend Kuni Nourdine OUBDA</h2></figcaption>
+    		   		</center>
+    	</figure>
+    		</header>
+           <nav>
+                <a href="#" id="A">Accueil</a>
+                <a href="#prop" class="na">À propos</a>
+                <a href="#ser" class="na">Services</a>
+                <a href="#h" class="na">Contact</a>
+           </nav>
+    <main>
+    		   <h3>Bienvenue sur ma page web</h3>
+        <section>
+            <h2 id="prop">À propos de moi</h2>
+            <p>Je suis <b>OUBDA Wend Kuni Nourdine</b>,
+je suis un développeur web passionné par la création de sites web modernes et fonctionnels.<br>
+tout en garantissant une assistance permanente pour assurer la securité de vos sites web.</p>
+        </section>
+
+        <section id="serv">
+            <h2 id="ser">Mes services</h2>
+            <ul>
+                <li>Conception de sites web</li>
+                <li>Développement front-end</li>
+                <li>cybersecurité</li>
+                <li>Maintenance et support</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="h">Contactez-moi</h2>
+            <form>
+                <label for="name">Nom *:</label>
+                <input type="text" id="name" name="name" required><br>
+                    		<br></br>
+                <label for="email">Email *:</label>
+                <input type="email" id="email" name="email" required><br>
+                    <br></br>
+                <label for="message">Message *:</label>
+                <textarea id="message" name="message" required></textarea>
+                    <br></br>
+		              <center><button type="submit" id="send">Envoyer</button></center>
+            </form>
+        </section>
+    </main>
+		   <footer>
+        <p>&copy; 2024 Ma page web. Tous droits réservés.</p>
+    </footer>
+</body>
+		<style>
+		header{
+			       	background-color: A7FFD8 ;
+		      }
+
+		#photo{
+				        border: 5px solid lightgreen; 
+				        border-radius: 50%;
+				       width:150px;
+       		}
+
+		main{
+				       background-image: url(.jpg);
+				       background-color: lightyellow;
+				      padding-top:0px;
+		     }
+
+		.na{
+				    padding-left: 30px;
+		    }
+
+		nav{
+				    background-color:#F8FF70;
+		   }
+
+		figure{
+		     		background-color:
+		      }
+
+		footer{
+			    	background-color:black; 
+				    color:white;
+		      }
+
+body{
+    background-image: url(.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	   	background-color: lightblue; 
+   		padding-left:0px
+		   padding-top:0px
+          }
+
+input{
+	   	background-color:transparent;
+     }
+
+#send{
+      		background-color:yellow
+      }
+section{
+		list-style: none;
+    }
+		</style>
+<script>
+var rep = getElementById(message)
+console.log(rep)
+</script>
+</body>
+</html>
